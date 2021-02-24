@@ -31,6 +31,10 @@ ul{
     bottom: 17.25rem;
      
 }
+.last{
+    right: -26%;
+    bottom: 17.25rem;
+}
 .getting{
     
     background:url(image/p2-big.jpg);
@@ -50,4 +54,16 @@ ul{
 }
 .what-do img{
     margin-top:-80px;
+}
+.bennar-section-of-service{
+    background:url(image/bn2.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.bennar-section-of-blog{
+    background:url(image/my\ download.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
 }
