@@ -39,7 +39,8 @@ px      68    160    252    */
 	 }
 	.img-res{
 		margin-bottom:30px;
-		 
+		 display:flex;
+		 justify-content: center;
 	}
 	.service-res{
 		 padding-bottom:50px;
