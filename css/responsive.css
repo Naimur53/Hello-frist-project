@@ -47,8 +47,13 @@ px      68    160    252    */
 		text-align: center;
 	}
 	.crazy-img  {
-		margin-top:60px;
+		margin-top:90px;
 		 
+	}
+	.full-card-flex{
+		display:flex;
+		 margin-bottom:40px;
+		justify-content: center;
 	}
 }
 
