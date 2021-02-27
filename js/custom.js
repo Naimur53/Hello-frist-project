@@ -9,7 +9,9 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 var scrollSpy = new bootstrap.ScrollSpy(document.body, {
     target: '#navbar-example2'
   })
-  $(document).ready(function() {
+  
+              
+  $(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -18,12 +20,12 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
             $('.scrollup').fadeOut();
         }
     });
-
+    
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0
         }, 600);
         return false;
     });
-
-});
+    
+    });
