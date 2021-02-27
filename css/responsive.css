@@ -55,6 +55,10 @@ px      68    160    252    */
 		 margin-bottom:40px;
 		justify-content: center;
 	}
+	.full-width{
+		width:100%;
+		margin-bottom:40px;
+	}
 }
 
 
